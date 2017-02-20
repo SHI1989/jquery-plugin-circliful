@@ -191,6 +191,7 @@
 
 			if (settings.animation == 1) {
 				if (settings.animateInView) {
+					checkAnimation();
 					$(window).scroll(function () {
 						checkAnimation();
 					});
